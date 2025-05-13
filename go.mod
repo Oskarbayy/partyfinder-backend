@@ -9,3 +9,5 @@ require (
 )
 
 require golang.org/x/crypto v0.38.0
+
+require github.com/google/wire v0.6.0 // indirect

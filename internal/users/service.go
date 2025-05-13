@@ -15,6 +15,7 @@ func NewService(s UserStore) *Service {
 	return &Service{store: s}
 }
 
+// repository
 func (s *Service) Create(ctx context.Context, u *User) (*User, error) {
 	if err := u.Validate(); err != nil {
 		return nil, err
